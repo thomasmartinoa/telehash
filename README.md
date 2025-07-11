@@ -34,7 +34,7 @@ Designed for space agencies like **NASA**, **ISRO**, or **SpaceX** to:
 
 | Repository              | Description                                      |
 |--------------------------|--------------------------------------------------|
-| [`telehash-frontend`](https://github.com/yourusername/telehash-frontend) | React dashboard UI for uploading, viewing logs |
+| [`telehash-frontend`](https://github.com/thomasmartinoa/telehash-frontend.git) | React dashboard UI for uploading, viewing logs |
 | [`telehash-storage`](https://github.com/yourusername/telehash-storage)   | Greenfield integration for decentralized file storage |
 
 ---
