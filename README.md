@@ -2,29 +2,40 @@
 
 Telehash is a blockchain-based telemetry and command provenance system designed for satellite missions and deep space infrastructure.
 
+---
+
 ## 🔧 What This Repo Includes
 
 - ✅ Solidity Smart Contract (`Telehash.sol`)
 - ✅ Hardhat setup for local/testnet deployment
 - ✅ Command logging and data event tracking per satellite
 - ✅ Deployment scripts
-- ✅ `.env`-based private key integration
-
-## 💡 Purpose
-
-Designed for use by space agencies like NASA, ISRO, or SpaceX to:
-- Log satellite command events immutably
-- Upload telemetry hashes and metadata securely
-- Decentralize mission-critical logs
+- ✅ `.env`-based wallet integration
 
 ---
 
-## 📦 Sub-Projects
+## 💡 Purpose
 
-| Project              | Description                                      |
-|----------------------|--------------------------------------------------|
-| [`telehash-frontend`](https://github.com/yourusername/telehash-frontend) | Web UI dashboard with wallet connect, logs, and analytics |
-| [`telehash-storage`](https://github.com/yourusername/telehash-storage)   | Greenfield SDK integration for decentralized telemetry storage |
+Designed for space agencies like **NASA**, **ISRO**, or **SpaceX** to:
+- Log satellite commands immutably
+- Upload telemetry hash + metadata
+- Improve deep space mission transparency
+
+---
+
+## 📄 Deployed Smart Contract
+
+📍 Deployed on BNB Testnet:  
+[`0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea`](https://testnet.bscscan.com/address/0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea#code)
+
+---
+
+## 📦 Related Projects
+
+| Repository              | Description                                      |
+|--------------------------|--------------------------------------------------|
+| [`telehash-frontend`](https://github.com/yourusername/telehash-frontend) | React dashboard UI for uploading, viewing logs |
+| [`telehash-storage`](https://github.com/yourusername/telehash-storage)   | Greenfield integration for decentralized file storage |
 
 ---
 
@@ -32,17 +43,10 @@ Designed for use by space agencies like NASA, ISRO, or SpaceX to:
 
 | File/Folder      | Purpose                        |
 |------------------|--------------------------------|
-| `contracts/`     | Contains `Telehash.sol` smart contract |
-| `scripts/`       | Hardhat deploy + test scripts  |
-| `.env`           | Stores wallet private key (not committed) |
-| `hardhat.config.js` | Network and compiler config  |
-
----
-
-## 🔐 Security
-
-- Wallet interactions are secured using `.env`
-- All satellite commands and data logs are immutably stored onchain
+| `contracts/`     | Contains the smart contract     |
+| `scripts/`       | Deploy and test scripts         |
+| `hardhat.config.js` | Hardhat + network setup       |
+| `.env`           | Wallet private key (never commit this)
 
 ---
 

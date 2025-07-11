@@ -1,0 +1,30 @@
+
+---
+
+## ✅ 📄 `README.md` for `telehash-storage` Repository (Final Version)
+
+```markdown
+# 🌐 Telehash Storage (Greenfield)
+
+This repository handles decentralized storage for satellite telemetry and command metadata using **BNB Greenfield**.
+
+It complements the on-chain logging system in [`telehash`](https://github.com/yourusername/telehash).
+
+---
+
+## 🎯 Purpose
+
+To store raw telemetry data (e.g., sensor dumps, orbit logs, file hashes) off-chain while logging their metadata and hash on-chain.
+
+---
+
+## 🛰 Smart Contract Link
+
+Smart contract that links storage CIDs + logs to satellites:
+
+📍 [`0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea`](https://testnet.bscscan.com/address/0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea#code)
+
+---
+
+## 📁 Folder Structure
+
